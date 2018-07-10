@@ -25,7 +25,7 @@ public class Test {
 //        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 //        //获取实例
 //        Test annotation =(Test) context.getBean("test");
-        ApplicationContext context = new ClassPathXmlApplicationContext("/resources/Beans.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
         Test test = (Test) context.getBean("test");
         test.show();
     }

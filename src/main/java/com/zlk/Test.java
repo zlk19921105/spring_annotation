@@ -1,6 +1,7 @@
 package com.zlk;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.stereotype.Component;
 
 /**
  * desc:
@@ -8,7 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @author zhoulk
  *         Date:  2018/6/25.
  */
-
+@Component
 public class Test {
     public static void main(String[] args) {
         //加载applicationContext.xml

@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.PropertySource;
 
 @ComponentScan
-@PropertySource("classpath:resources/app.properties")
+@PropertySource("classpath:app.properties")
 public class App {
 
     public static void main( String[] args) {

@@ -36,7 +36,7 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("/resources/Beans.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
         Student student = (Student) context.getBean("student");
         System.out.println("Name : " + student.getName() );
         System.out.println("Age : " + student.getAge() );

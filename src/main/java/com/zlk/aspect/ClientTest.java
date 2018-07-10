@@ -11,7 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class ClientTest {
     public static void main(String[] args) {
-        BeanFactory factory = new ClassPathXmlApplicationContext("resources/applicationContext.xml");
+        BeanFactory factory = new ClassPathXmlApplicationContext("applicationContext.xml");
         UserManager userManager = (UserManager)factory.getBean("userManager");
 
         //可以查找张三
